@@ -1,0 +1,59 @@
+/* Styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the main container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+/* Styles for the heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styles for input fields */
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Styles for buttons */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for the story section */
+#story {
+  margin-top: 20px;
+}
+
+/* Class to hide elements */
+.hidden {
+  display: none;
+}
